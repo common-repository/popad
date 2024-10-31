@@ -1,0 +1,15 @@
+@media screen and (max-width: 782px){
+	.wp-list-table td:not(.pop_ad_title_column),
+	.pop_ad_title_column:before,
+	.wp-list-table th:not(.column-pop_ad_title_column){
+		display:none !important;
+	}
+
+	.row-actions{
+		left:0 !important;
+	}
+
+	.pop-ad-row-views{
+		display: inline !important;
+	}
+}
